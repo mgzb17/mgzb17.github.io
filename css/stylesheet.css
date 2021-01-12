@@ -1,6 +1,6 @@
 body {
     background-color:antiquewhite;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Courier New', Courier, monospace;
 }
 #index-main {
     max-width: 800px;
@@ -15,7 +15,6 @@ header, footer {
 header h1 {
     font-size:32px;
     padding-left:95px;
-    font-family:'Dosis', sans-serif;
 }
 main {
     padding:0 15px;
