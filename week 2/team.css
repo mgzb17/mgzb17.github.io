@@ -48,7 +48,14 @@ h1 {
 h3 {
     color: #70c3f4;
 }
-
 p{
     color: gray;
+}
+
+.button {
+    background-color: gray;
+}
+
+.midButton {
+    background-color: orange;
 }
