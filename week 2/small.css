@@ -1,0 +1,41 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*Styling for mobile screens*/
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: rgb(253, 219, 219);
+        
+    }
+    header {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+    main {
+        display: grid;  
+        margin: 0 auto;
+        font-family: 'Ubuntu', sans-serif;
+        grid-template-columns:1fr;
+        grid-gap: 2em;
+    }
+
+    .proximity {
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+        margin: 1em;
+    }
+
+    .alignment {
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .visual-hierarchy {
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+        margin: 1em;
+    }
+
