@@ -155,7 +155,7 @@ footer {
 
 .colors {
   width: 100%;
-  min-width: 350px;
+  max-width: 100%;
   margin: auto;
   text-align: center;
 }
