@@ -1,0 +1,211 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*Styling for mobile screens*/
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 231, 231);
+    
+}
+header, footer {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #140d67;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: sticky;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 25px;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:  rgb(255, 231, 231);}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #f14057e0;}
+
+main {
+    display: grid;  
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    grid-template-columns:1fr;
+    grid-gap: 1em;
+    background-color: white;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 25px;
+    border-style: solid;
+    
+}
+
+.site-name {
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    margin: 1em;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+.purpose {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+.logo-box {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 25px;
+    border-style: solid;
+} 
+/*-------------------------------------------------AUDIENCE-----------------------------------------------*/
+.audience {
+  text-align: left;
+  background-color: white;
+  padding: 15px;
+  margin: 1em;
+  border-radius: 25px;
+  border-style: solid;
+}
+.scenarios {
+  text-align: left;
+  background-color: white;
+  padding: 15px;
+  margin: 1em;
+  border-radius: 25px;
+  border-style: solid;
+}
+.personas {
+  text-align: left;
+  background-color: white;
+  padding: 15px;
+  margin: 1em;
+  border-radius: 25px;
+  border-style: solid;
+}
+
+/*-------------------------------------------------COLOR-----------------------------------------------*/
+/* .color-scheme {
+  text-align: center;
+  background-color: white;
+  padding: 1px;
+  margin: 1em;
+  border-radius: 25px;
+}
+.palette {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  max-height:100%;
+} */
+/* img {
+  max-width:100%;
+  max-height:100%;
+  text-align: center;
+} */
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.primary {
+  background-color: var(--primary-color);
+  
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #003F91;
+  --secondary-color: #F5F2B8;
+  --accent1-color: #E7EDEF;
+  --accent2-color: #D34A5D;
+  
+}
+
+/* .kulay {
+  font-family: 'Ubuntu', sans-serif;
+} */
+
+
+
+/*-------------------------------------------------TYPOGRAPHY-----------------------------------------------*/
+.typo-desc {
+  text-align: center;
+  background-color: white;
+  padding: 1px;
+  margin: 1em;
+  border-radius: 25px;
+  
+}
+
+.example1 {
+  font-size: 15px;
+}
+.example2 {
+  font-size: 25px;
+}
+.example3 {
+  font-size: 35px;
+}
+.example4 {
+  font-size: 45px;
+}
