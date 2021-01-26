@@ -1,4 +1,4 @@
-/* font-family: 'Noto Sans JP', sans-serif; */
+/* Cameron Fuller, Malcolm King, Madelle Bongalon */
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -12,7 +12,7 @@ header {
 main {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: rgb(21, 40, 95);
-    display grid-template-columns: auto;
+    grid-template-columns: auto;
     text-align: center;
 }
 
@@ -49,7 +49,7 @@ footer {
         grid-template-rows: auto auto auto auto;
     }
     main img {
-        display: block;
+        display: inli;
     }
     header name {
         text-align: right
