@@ -49,7 +49,7 @@ footer {
         grid-template-rows: auto auto auto auto;
     }
     main img {
-        display: inline;
+        display: block;
     }
     header name {
         text-align: right
