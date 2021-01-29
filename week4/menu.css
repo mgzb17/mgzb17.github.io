@@ -1,0 +1,69 @@
+nav {
+    margin: 0 auto; /*makes it to be in the middle of the screen*/
+    max-width: 360px;
+    background-color: #12aaeb;
+}
+
+#navigation {
+    list-style:none;
+    padding:0;
+    display:grid;
+    grid-template-columns: auto;
+}
+
+/*Turn on first li*/
+#navigation li:first-child {
+    display:block;
+}
+
+/*Turn off the other lists. Usually it will turn off all but the one above turned one on so it left one on.*/
+#navigation li {
+    display: none;
+}
+
+/*The acronym for this is LoVe HAte. This needs to be typed in this order. You can read w3schools about this.*/
+/**/
+#navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active, navigation a:focus {
+    display: block;
+    padding: 0.7em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+#navigation a:hover {
+    color: white;
+    background-color: black;
+}
+/*this here is saying a class named navigation that has an id of responsive.*/
+#navigation.responsive li {
+    display:block;
+}
+
+@media only screen and (min-width:34.5em){
+    nav {
+        max-width: 100%;
+        
+    }
+    #navigation {
+        grid-template-columns: repeat(7,auto);
+    }
+    #navigation li {
+        display:block;
+    }
+    #navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active, navigation a:focus {
+        text-align:center;
+    }
+    /*turns off the hamburger menu*/
+    #navigation li:first-child {
+        display:none;
+    }
+
+}
+
+@media only screen and (min-width:54.5em) {
+    #navigation {
+        width:800px;
+        margin:16px auto;
+    }
+}
