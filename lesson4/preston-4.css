@@ -138,7 +138,10 @@ main {
     border-radius: 25px;
 }
 /**/
-
+.date {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
 /**/
 
 
