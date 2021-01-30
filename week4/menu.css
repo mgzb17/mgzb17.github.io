@@ -2,6 +2,7 @@ nav {
     margin: 0 auto; /*makes it to be in the middle of the screen*/
     max-width: 360px;
     background-color: #12aaeb;
+    align:center;
 }
 
 #navigation {
@@ -33,7 +34,7 @@ nav {
 }
 #navigation a:hover {
     color: white;
-    background-color: black;
+    background-color: #D34A5D;
 }
 /*this here is saying a class named navigation that has an id of responsive.*/
 #navigation.responsive li {
