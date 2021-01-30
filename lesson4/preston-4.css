@@ -204,6 +204,10 @@ main {
     main {
         background-color: white;
     }
+    .date {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------- */
@@ -252,6 +256,9 @@ main {
         background-color: white;
         padding: 1em;
     }
-
+    .date {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
 }
 
