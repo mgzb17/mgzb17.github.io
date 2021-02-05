@@ -33,15 +33,22 @@ nav {
     color: #003F91;
     font-weight:bold;
     position: relative;
+    font-family: 'Ubuntu', sans-serif;
 }
 #navigation a:hover {
     color: white;
     background-color: #f87a8b;
+    border-radius: 25px;
 }
 /*this here is saying a class named navigation that has an id of responsive.*/
 #navigation.responsive li {
     display:block;
 }
+
+.current {
+    
+}
+
 .footer-contact {
     display: none;
 }
@@ -68,7 +75,9 @@ nav {
     margin-right: auto;
     width: 50%;
 }
-
+.map {
+    padding: 1em;
+}
 /*Font style of everything*/
 h1,h2,h3,h4,h5,h6,p {
     font-family: 'Ubuntu', sans-serif;
@@ -83,7 +92,7 @@ header {
 }
 
 
-/*Social Media*/
+/**/
 .social img {
     max-width:10%;
     height:auto;
@@ -95,13 +104,13 @@ header {
 }
 
 
-/*BODY*/
+/**/
 body {
     background-color: #e7edefff;
     color: #003F91;
 }
 
-/*MAIN*/
+/**/
 main {
     display: grid;  
     margin: 0 auto;
@@ -115,34 +124,41 @@ main {
     border-radius: 25px;
 }
 
-/*divs*/
-.hero-image {
+/**/
+/* .hero-image {
     border-style: solid;
     border-radius: 25px;
-}
+} */
 
-.weather-summary {
+/* .weather-summary {
     border-style: solid;
     border-radius: 25px;
-}
+} */
 .forecast {
     border-style: solid;
     border-radius: 25px;
+    padding-bottom: 2em;
 }
 .article {
     border-style: solid;
     border-radius: 25px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.article p {
+    text-align: justify;
 }
 .contact {
     border-style: solid;
     border-radius: 25px;
 }
-/*design for the date*/
+/**/
 .date {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
-/*Banner*/
+/**/
 .banner p {
     font-size: 125%;
     color: #f87a8b;
@@ -152,18 +168,27 @@ main {
     font-weight: bold;
 }
 
-/*-------*/
-/* .banner {
-    animation: blinker 5s linear infinite;
-  }
-  
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-  } */
 
-  
+.banner-img {
+    max-width: 90%;
+    width: 100%;
+  }
+
+  /*Table*/
+  table {
+      text-align: center;
+      margin-left:auto;
+      margin-right:auto;
+      /* border: 3px solid black; */
+      padding: 1em;
+      font-size: 14pt;
+  }
+  th, td {
+      border: 1px solid black;
+  }
+  th {
+      color: #f87a8b;
+  }
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -278,6 +303,56 @@ main {
     .date {
         font-family: 'Ubuntu', sans-serif;
         text-align: center;
+    }
+
+    .banner-img {
+        max-width: 100%;
+        width: 100%;
+      }
+
+    .overlay {
+        position: absolute;
+        width: 15em;
+        right: 52em;
+        background-color: white;
+        height: 7em;
+        top: 74%;
+        /* border: solid; */
+        padding: 2em;
+        opacity: 60%;
+        border-radius: 25px;
+    }
+    table {
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        /* border: 3px solid black; */
+        padding: 1em;
+        font-size: 25pt;
+    }
+    th, td {
+        border: 1px solid black;
+    }
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 100em) {
+    .banner-img {
+        max-width: 100%;
+        width: 100%;
+      }
+
+    .overlay {
+        position: absolute;
+        width: 15em;
+        right: 65em;
+        background-color: white;
+        height: 7em;
+        top:58%;
+        /* border: solid; */
+        padding: 2em;
+        opacity: 60%;
+        border-radius: 25px;
     }
 }
 
