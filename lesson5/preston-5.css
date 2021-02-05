@@ -83,7 +83,7 @@ header {
 }
 
 
-/**/
+/*Social Media*/
 .social img {
     max-width:10%;
     height:auto;
@@ -95,13 +95,13 @@ header {
 }
 
 
-/**/
+/*BODY*/
 body {
     background-color: #e7edefff;
     color: #003F91;
 }
 
-/**/
+/*MAIN*/
 main {
     display: grid;  
     margin: 0 auto;
@@ -115,7 +115,7 @@ main {
     border-radius: 25px;
 }
 
-/**/
+/*divs*/
 .hero-image {
     border-style: solid;
     border-radius: 25px;
@@ -137,14 +137,33 @@ main {
     border-style: solid;
     border-radius: 25px;
 }
-/**/
+/*design for the date*/
 .date {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
-/**/
+/*Banner*/
+.banner p {
+    font-size: 125%;
+    color: #f87a8b;
+    border: dashed;
+    border-radius: 25px;
+    padding: .5em;
+    font-weight: bold;
+}
 
+/*-------*/
+/* .banner {
+    animation: blinker 5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  } */
 
+  
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 
 
