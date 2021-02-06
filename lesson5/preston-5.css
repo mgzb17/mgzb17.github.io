@@ -46,7 +46,8 @@ nav {
 }
 
 .current {
-    
+    border-radius: 25px;
+    background-color: #ffc4cc;
 }
 
 .footer-contact {
