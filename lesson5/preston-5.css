@@ -160,7 +160,7 @@ main {
     text-align: center;
 }
 /**/
-.banner p {
+#banner p {
     font-size: 125%;
     color: #f87a8b;
     border: dashed;

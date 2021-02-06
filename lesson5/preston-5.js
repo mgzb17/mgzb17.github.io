@@ -5,7 +5,7 @@ window.addEventListener('load', ()=>{
     hambutton.addEventListener('click', ()=> {mainnav.classList.toggle('responsive')}, false);
 
     window.onresize = ()=> {if(window.innerWidth>760) mainnav.classList.remove('responsive');}; //when the windows are a certain size, make the responsive off in case it is on.
-// ---------------------------------------------
+// --------------------------------------------- for the date
     const currentDate = document.querySelector(".date");
     var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');
@@ -25,10 +25,24 @@ window.addEventListener('load', ()=>{
 
     today = n + ', ' + mm + '/' + dd + '/' + yyyy;
     currentDate.textContent = today;
-// ---------------------------------------------
+// --------------------------------------------- for the copyrightyear
     const cry = document.querySelector("#copyrightyear");
     cry.textContent = new Date().getFullYear();
 
+// --------------------------------------------- for the banner that only shows on Fridays
+
+
+    var currentTime = new Date()
+    var day = currentTime.getDate()
+    if(day != 5)
+    {
+        document.getElementById("banner").style.display = 'none';
+    }
+    else {
+        document.getElementById("banner").style.display = 'block';
+}
+
+// --------------------------------------------- 
 });
 
 
