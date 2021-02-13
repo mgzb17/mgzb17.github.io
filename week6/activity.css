@@ -1,0 +1,34 @@
+/*MAIN*/
+main figure.myphoto {
+    width: 50%;
+    /* border: 1px red dashed; */
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+main figure.myphoto img {
+    width: 100%;
+}
+
+main figure.myphoto figcaption {
+    text-align:center;
+    font-size: .75em;
+}
+
+/*HEADER*/
+header figure.logo {
+    float:left;
+    margin: 0 2% 0 0;
+}
+
+/*CLEARFIX*/
+.clearfix:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
