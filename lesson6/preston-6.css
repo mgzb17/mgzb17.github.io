@@ -190,7 +190,6 @@ main {
   th {
       color: #f87a8b;
   }
-
   
   /*CLEARFIX*/
 .clearfix:after {
@@ -261,6 +260,7 @@ main {
         font-family: 'Ubuntu', sans-serif;
         text-align: center;
     }
+
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------- */
@@ -325,11 +325,11 @@ main {
         right: 52em;
         background-color: white;
         height: 12em;
-        top: 80%;
+        top: 33em;
         /* border: solid; */
         padding: 1.5em;
         opacity: 60%;
-        border-radius: 25px;
+        
         
     }
     .overlay p {
@@ -362,11 +362,11 @@ main {
         right: 65em;
         background-color: white;
         height: 12em;
-        top:58%;
+        top: 33em;
         /* border: solid; */
         padding: 2em;
         opacity: 60%;
-        border-radius: 25px;
+        
     }
 }
 
