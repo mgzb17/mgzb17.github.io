@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Lazy Loading is not loading something unless you are going to use it. Loading things later. Ex: If you come to this certain page, load this. -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loader Example</title>
+    <link href="gallery.css" rel="stylesheet">
+    <style>
+
+   .row {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(6);
+  gap: 5px;
+
+}
+ /* img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.a {
+    width: 500px;
+    height: 500px;
+    grid-column: 1/2;
+    grid-row: 1/4
+    /* grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2; */
+
+}
+.b {
+     width: 500px;
+     height: 250px;
+     grid-column-start: 2;
+     grid-column-end: 2;
+     grid-row-start: 1;
+     grid-row-end:2;
+}
+.c {
+    width: 500px;
+    height: 250px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.d {
+    width: auto;
+    height: 250px;
+}
+.e {
+    width: auto;
+    height: 500px;
+}
+/* Create two equal columns that sits next to each other */
+/* .placeholder-loading {
+  flex: 50%;
+  padding: 0 4px;
+} */
+
+/* .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}  */
+    
+/* .a {
+  width: 375px;
+  height: 500px;
+} */
+    
+    
+    
+    </style>
+    <script>
+        window.addEventListener('load',(event)=>{
+            lazyLoad();
+        });
+        function lazyLoad() {
+            const images = document.querySelectorAll("[data-src]");
+            for(const image of images){
+                image.src = image.getAttribute("data-src");
+            }
+            //transferred the data of data-src to image
+            // console.log(images);
+        }
+    </script>
+</head>
+<body>
+<div class="row">
+    <div class="placeholder-loading"><img src="" alt="" class="a" data-src="http://unsplash.it/400"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="b" data-src="http://unsplash.it/401"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="c" data-src="http://unsplash.it/402"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="d" data-src="http://unsplash.it/403"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="e" data-src="http://unsplash.it/404"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="f" data-src="http://unsplash.it/405"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="g" data-src="http://unsplash.it/406"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="h" data-src="http://unsplash.it/407"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="i" data-src="http://unsplash.it/408"></div>
+    <div class="placeholder-loading"><img src="" alt="" class="j" data-src="http://unsplash.it/409"></div>
+    </div>
+
+</body>
+</html>
