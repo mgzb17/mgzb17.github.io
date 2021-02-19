@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="preston-7.css" rel="stylesheet">
+    <script src="preston-7.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<!-- <body onload="date()"> -->
+<body>
+    <div id="content">
+    <header>
+        <img class="logo" src="images/iconfinder_sun_3688448.png" alt="logo image">
+        <div class="wesbite-name">
+        <h1>RainShine Weather App</h1>
+        <p>"A rainy day can be as good as a sunny day."</p>
+        </div>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="#" class="ham">&#9776;</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="current"><a href="https://mgzb17.github.io/lesson5/preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+<!--MAIN: image, weather summary, five day forecast, article title-->
+    <main>
+        
+        <div id="banner">
+            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+        <div class="title">
+            <h2>Preston Idaho</h2>
+            <p></p>
+        </div>
+        <div class="hero-image">
+            <!-- <img class="banner-img" src="images\cropped-m.jpg" alt="hero image"> -->
+            <figure class="myphoto">
+                <img src="images/wdd230_image_franklinOriginal.jpg" alt="banner" sizes="50vw"
+                     srcset="images/wdd230_image_franklin200Original.jpg 200w,
+                             images/wdd230_image_franklin500Original.jpg 500w,
+                             images/wdd230_image_franklin800Original.jpg 800w">  
+            </figure>
+
+            <div class="overlay">
+                    <p><b>Weather Summary</b></p>
+                    <p>Currently: Rainy</p>
+                    <p>High: <span class="high">54</span> F</p>
+                    <p>Wind Chill: <span class="chill"></span> F</p>
+                    <p>Humidity: 95%</p>
+                    <p>Wind Speed: <span class="speed">12</span> mph</p>                
+            </div>
+        </div>
+        <div class="forecast">
+            <h3>7 Day Forecast</h3>
+            <table>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+                <tr>
+                    <td>61 68</td>
+                    <td>58 83</td>
+                    <td>58 85</td>
+                    <td>55 88</td>
+                    <td>62 86</td>
+                    <td>50 54</td>
+                    <td>65 89</td>
+                </tr>
+            </table>
+        </div>    
+        <div class="article">
+            <h3>Article</h3>
+            <p>Happy Day! A moist northwest flow is generating mountain snow and light valley rain/snow showers across the region 
+                through this early afternoon. Snow showers will taper off this afternoon and skies will begin to clear across the region.
+                In addition to the moisture, moderate to strong winds are expected across southern Idaho this afternoon.
+                A Wind Advisory has been issued for the Upper Treasure Valley and the Magic Valley from 9 am to 5 pm today. 
+                Sustained winds of 25 to 35 mph are expected with gusts up to 40-45 mph. 
+                Wind will likely create difficult travel conditions throughout the day Friday.
+                Over the weekend, northwest flow will remain in place. 
+                The Treasure Valley is expected to stay dry but will see partly cloudy skies through Sunday, 
+                temperatures in the mid to upper 40's for highs. Occasional snow showers are expected over 
+                the northern mountain regions as waves of moisture move within the northwest flow. 
+                Dry weather and cooler temperatures are currently in the forecast for next week. Stay tuned.</p>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <div class="cont-info">
+               <p>&#9993;<b>Email:</b> rainshine@weatherapp.com</p> 
+               <p>&#9743;<b>Number:</b> 208-000-0000</p>
+            </div>
+            <div class="map">
+                <img src="images/preston-map.JPG" alt="location of Preston, ID">
+            </div>
+            <div class="social">    
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"> 
+                <img src="images/instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com/" target="_blank">
+                <img src="images/twitter.png" alt="twitter"></a>   
+            </div>
+        </div>
+    </main>
+
+    <footer>
+<!-- Map -->
+        <!-- <div class="map">
+            <img src="images\preston map.JPG" alt="location of Preston, ID"></a>
+        </div> -->
+        <br>
+<!-- Contact Information -->
+        <!-- <div class="-footer-contact">
+            <h6>Contact Information</h6>
+            <p>USA</p>
+            <p>000-000-0000</p>
+            <p>aaa@gmail.com</p>
+        </div> -->
+<!-- Social Media -->
+        <!-- <div class="social">    
+            <a href="https://www.facebook.com/" target="_blank">
+            <img src="images\facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"> 
+            <img src="images\instagram.png" alt="instagram"></a>
+            <a href="https://twitter.com/" target="_blank">
+            <img src="images\twitter.png" alt="twitter"></a>   
+        </div> -->
+<!--Copyright-->
+        <p class='legal'>&copy; <span id='copyrightyear'></span> | Madelle Bongalon | Washington | <a href='https://www.byui.edu/online'>BYUI Online Learning</a></p>
+        <div class="date">
+
+        </div>
+    </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="webfrontload.js"></script>
+</body>
+
+
+
+<!-- <picture>
+    <source media="(min-width:54.5em)" srcset="images/wdd230_image_franklinOriginal.jpeg">
+    <source media="(min-width:34.5em)" srcset="images/wdd230_image_franklinOriginal.jpeg">
+    <img class="hero" src="images/wdd230_image_franklinOriginal.jpeg" alt="Stary night">
+</picture> -->
+
+
+</html>
