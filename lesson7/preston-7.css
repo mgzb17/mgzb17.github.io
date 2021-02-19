@@ -153,6 +153,7 @@ main {
 .contact {
     border-style: solid;
     border-radius: 25px;
+    padding-bottom: 1em;
 }
 /**/
 .date {
@@ -203,9 +204,10 @@ main {
 
 .loading {
     background-color: lightgray;
-    min-width: 400px;
-    min-height:400px;
+    min-width: 300px;
+    min-height:200px;
     position:relative;
+    
 }
 .placeholder-loading::before {
     content:"";
