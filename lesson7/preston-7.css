@@ -203,11 +203,12 @@ main {
 /*Gallery for Mobile*/
 
 .loading {
-    background-color: lightgray;
+    background-color: rgb(231, 231, 231);
     min-width: 300px;
     min-height:200px;
     position:relative;
-    
+    box-shadow: 10px 10px 5px rgb(253, 207, 207);
+    /* padding-bottom: 1em; */
 }
 .placeholder-loading::before {
     content:"";
@@ -225,7 +226,22 @@ main {
     display:inline-block;
     position:relative;
     overflow:hidden;
+    padding-bottom: 10px;
 }
+.placeholder-loading {
+    transition: box-shadow .3s;
+    /* width: 300px;
+    height: 500px;
+    margin: 50px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left; */
+    
+  }
+  .placeholder-loading:hover {
+    box-shadow: 0 0 11px rgba(25, 24, 24, 0.734); 
+  }
 @keyframes load {
     0% {
         left:-400px;
