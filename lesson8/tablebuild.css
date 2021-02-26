@@ -1,1 +1,57 @@
 /*font-family: 'Ubuntu', sans-serif;*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+}
+th, tr {
+    padding: .3em;
+
+}
+.title {
+    background-color: rgb(141, 189, 206);
+    font-weight: 800;
+    font-size: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+.t1 {
+    background-color: rgb(94, 127, 150);
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+.t2 {
+    background-color: rgb(214, 225, 226);
+    font-size: 20px;
+}
+.t3 {
+    background-color: rgb(212, 238, 228);
+    font-size: 20px;
+}
+.t4 {
+    background-color: rgb(214, 225, 226);
+    font-size: 20px;
+}
+.t5 {
+    background-color: rgb(212, 238, 228);
+    font-size: 20px;
+}
+.t5-blue {
+    background-color: rgb(94, 127, 150);
+    color: white;
+}
+.t6 {
+    background-color: rgb(214, 225, 226);
+    font-size: 20px;
+}
+.t7 {
+    background-color: rgb(212, 238, 228);
+    font-size: 20px;
+}
+.t8 {
+    background-color: rgb(141, 189, 206);
+}
