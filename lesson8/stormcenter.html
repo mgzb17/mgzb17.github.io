@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="stormcenter.css" rel="stylesheet">
+    <script src="stormcenter.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<!-- <body onload="date()"> -->
+<body>
+    <div id="content">
+    <header>
+        <img class="logo" src="images/iconfinder_sun_3688448.png" alt="logo image">
+        <div class="wesbite-name">
+        <h1>RainShine Weather App</h1>
+        <p>"A rainy day can be as good as a sunny day."</p>
+        </div>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="#" class="ham">&#9776;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://mgzb17.github.io/lesson5/preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="current"><a href="#">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+<!--MAIN: image, weather summary, five day forecast, article title-->
+    <main>
+        
+        <div id="banner">
+            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+<!-- FORM -->
+
+<form method="get" action="thanks.html">
+<fieldset>
+    <h1>Report Form</h1>
+    <label class="top">First Name*<input type="text" name="fname" required></label>
+    <label class="top">Email*<input type="email" name="phone" placeholder="someone@gmail.com" required></label>
+    <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234" required></label>
+    <label class="top">Zip Code<input type="number" name="phone" required></label>
+    <label class="top">Date<input type="date" name="date" ></label>
+
+    <br>
+    <br>
+
+    <!-- <div>Storm Type</div>
+    <label class="sbs"><input type="radio" name="audience" value="flashflood"> Flash Flood</label>
+    <label class="sbs"><input type="radio" name="audience" value="hail"> Hail</label>
+    <label class="sbs"><input type="radio" name="audience" value="hurricane"> Hurricane</label>            <div>Audience</div>
+    <label class="sbs"><input type="radio" name="audience" value="thunderstorm"> Thunderstorm</label>
+    <label class="sbs"><input type="radio" name="audience" value="tornado"> Tornado</label> -->
+
+    <div class="type">
+    <label for="browser">Storm Type:</label>
+    <input list="stormtype" name="stormtype">
+    <datalist id="stormtype">
+      <option value="Flash Flood">
+      <option value="Hail">
+      <option value="Hurricane">
+      <option value="Thunderstorm">
+      <option value="Tornado">
+    </datalist>
+    </div>
+    <br>
+    <br>
+    <label class="submitBtn">Storm Severity: <input type="number" name="authors"></label>
+    <br>
+    <br>
+    <label class="submitBtn">Storm Region
+        <select name="subject">
+        <option value="">Please Select &#9662;</option>
+        <option value="preston">Preston</option>
+        <option value="sodasprings">Soda Springs</option>
+        <option value="fishhaven">Fish Haven</option>
+        </select>
+    </label>
+
+    <div>User In-danger Level</div>
+    <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
+    <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
+    <label class="sbs"><input type="radio" name="audience" value="no"> No</label> 
+    <br>
+    <textarea rows="4" cols="50" name="comment" form="usrform">
+        Enter additional information or comments here...</textarea>
+    <br>
+</fieldset>
+    <input type="button" value="Report" class="button">
+</form>
+
+
+<br>
+<br>
+
+<!-- END OF FORM -->
+        <div class="contact">
+            <h3>Contact</h3>
+            <div class="cont-info">
+               <p>&#9993;<b>Email:</b> rainshine@weatherapp.com</p> 
+               <p>&#9743;<b>Number:</b> 208-000-0000</p>
+            </div>
+            <div class="map">
+                <img src="images/preston-map.JPG" alt="location of Preston, ID">
+            </div>
+            <div class="social">    
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"> 
+                <img src="images/instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com/" target="_blank">
+                <img src="images/twitter.png" alt="twitter"></a>   
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class='legal'>&copy; <span id='copyrightyear'></span> | Madelle Bongalon | Washington | <a href='https://www.byui.edu/online'>BYUI Online Learning</a></p>
+        <div class="date">
+
+        </div>
+    </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="webfrontload.js"></script>
+</body>
+
+
+
+
+
+
+</html>
