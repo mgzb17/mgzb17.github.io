@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+tr:nth-child(2n) {
+    background-color: #89abbc;
+    color: #004d71;
+}
+
+table {
+    margin: 0 auto;
+    max-width: 600px;
+    width:100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: solid 5px black;
+    /* border-radius:25px; */
+    font-size: 16px;
+    box-shadow: 10px 10px 10px black;
+    overflow: hidden;
+}
+
+.first {
+    background-color: #dd5f13;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+th, td {
+    text-align: center;
+    padding: 1em;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
