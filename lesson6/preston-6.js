@@ -36,10 +36,10 @@ window.addEventListener('load', ()=>{
     var day = currentTime.getDate()
     if(day != 5)
     {
-        document.getElementById("banner").style.display = 'block';
+        document.getElementById("banner").style.display = 'none';
     }
     else {
-        document.getElementById("banner").style.display = 'none';
+        document.getElementById("banner").style.display = 'block';
 }
 
 // --------------------------------------------- 
