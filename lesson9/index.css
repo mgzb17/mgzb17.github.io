@@ -251,7 +251,30 @@ main {
     }
 }
 
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* css for home */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+section {
+    display: inline-block;
+    border: solid 2px black;
+    margin: .2em;
+    text-align: center;
+    background-color:#003f917e;
+    /* padding-bottom: 1em; */
+    width: 280px;   
+    height: 400px;
+}
+img {
+    width: 80%;
+}
 
+header {
+    text-align: center;
+}
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 
 

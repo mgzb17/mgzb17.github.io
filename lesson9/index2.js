@@ -79,8 +79,6 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
-            if ((towns[i].name === 'Preston') || (towns[i].name === 'Soda Springs')
-            || (towns[i].name === 'Fish Haven')) {
         // console.table(jsonObject); // temporary checking for valid response and data parsing
 
         let town = document.createElement('section');
@@ -89,30 +87,99 @@ fetch(requestURL)
         let yearFounded = document.createElement('p');
         let currentPopulation = document.createElement('p');
         let averageRainfall = document.createElement('p');
-        let image = document.createElement('img');
+        let events = document.createElement('p');
+
+        }
+        for (let i = 0; i = 1; i++) {
+            // console.table(jsonObject); // temporary checking for valid response and data parsing
+    
+            let town = document.createElement('section');
+            let name = document.createElement('h3');
+            let motto = document.createElement('h4');
+            let yearFounded = document.createElement('p');
+            let currentPopulation = document.createElement('p');
+            let averageRainfall = document.createElement('p');
+            let events = document.createElement('p');
+    
+    
+            name.innerHTML = towns[1].name
+            motto.innerHTML = towns[1].motto;
+            yearFounded.innerHTML = '<strong>Year Founded: </strong>' + towns[1].yearFounded;
+            currentPopulation.innerHTML = '<strong>Population: </strong>' + towns[1].currentPopulation;
+            averageRainfall.innerHTML = '<strong>Average Rainfall: </strong>' + towns[1].averageRainfall;
+            // events.innerHTML = '<strong>Events: </strong>' + towns[i].events; 
+    
+            
+            // if (person.marriage.children < 0)
+            // {
+            //     children.removeChild('p');
+            // }
+            
+    
+            // image.setAttribute('src', "https://thispersondoesnotexist.com/image");
+                
+            town.appendChild(name);
+            town.appendChild(motto);
+            town.appendChild(yearFounded);
+            town.appendChild(currentPopulation);
+            town.appendChild(averageRainfall);
+            // town.appendChild(events);
+    
+                
+            document.querySelector('div.town1').appendChild(town);
+    
+            }
+                   for (let i = 0; i = 5; i++) {
+        // console.table(jsonObject); // temporary checking for valid response and data parsing
+
+        let town = document.createElement('section');
+        let name = document.createElement('h3');
+        let motto = document.createElement('h4');
+        let yearFounded = document.createElement('p');
+        let currentPopulation = document.createElement('p');
+        let averageRainfall = document.createElement('p');
+        let events = document.createElement('p');
+
+
+        name.innerHTML = towns[5].name
+        motto.innerHTML = towns[5].motto;
+        yearFounded.innerHTML = '<strong>Year Founded: </strong>' + towns[5].yearFounded;
+        currentPopulation.innerHTML = '<strong>Population: </strong>' + towns[5].currentPopulation;
+        averageRainfall.innerHTML = '<strong>Average Rainfall: </strong>' + towns[5].averageRainfall;
+        // events.innerHTML = '<strong>Events: </strong>' + towns[i].events; 
+
+        
+        // if (person.marriage.children < 0)
+        // {
+        //     children.removeChild('p');
+        // }
         
 
-
-        name.innerHTML = towns[i].name
-        motto.innerHTML = towns[i].motto;
-        yearFounded.innerHTML = '<strong>Year Founded: </strong>' + towns[i].yearFounded;
-        currentPopulation.innerHTML = '<strong>Population: </strong>' + towns[i].currentPopulation;
-        averageRainfall.innerHTML = '<strong>Average Rainfall: </strong>' + towns[i].averageRainfall;
-        image.setAttribute('src', 'images/' + towns[i].photo);
-
+        // image.setAttribute('src', "https://thispersondoesnotexist.com/image");
+            
         town.appendChild(name);
         town.appendChild(motto);
         town.appendChild(yearFounded);
         town.appendChild(currentPopulation);
         town.appendChild(averageRainfall);
-        town.appendChild(image)
+        // town.appendChild(events);
 
-
-        document.querySelector('div.town').appendChild(town);
-
-        }
-        }
             
-      
+        document.querySelector('div.town2').appendChild(town);
+
+        }
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
