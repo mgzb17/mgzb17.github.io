@@ -44,14 +44,14 @@ window.addEventListener('load', ()=>{
 
 // --------------------------------------------- 
 
-const high = document.querySelector(".high").innerHTML;
-const speed = document.querySelector(".speed").innerHTML;
-const chill = document.querySelector(".chill");
+// const high = document.querySelector(".high").innerHTML;
+// const speed = document.querySelector(".speed").innerHTML;
+// const chill = document.querySelector(".chill");
 
-var wChill = Math.round(35.74 + (0.6215 * high) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * high * Math.pow(speed,0.16)));
-chill.textContent = wChill;
+// var wChill = Math.round(35.74 + (0.6215 * high) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * high * Math.pow(speed,0.16)));
+// chill.textContent = wChill;
 
-});
+// });
 
 
 // --------------------------------------------- Lazy Loading
@@ -69,10 +69,29 @@ function lazyLoad() {
 }
 
 //----------------------------------------------- Temparature
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=6f16444b6f9dc85d238029a2d54a5e18&units=imperial";
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    document.getElementById('current-temp').textContent = jsObject.main.temp;
 
+const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
+const desc = jsObject.weather[0].description;  // note how we reference the weather array
+document.getElementsByClassName('imagesrc').textContent = imagesrc;  // informational specification only
+document.getElementsByClassName('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+document.getElementsByClassName('icon').setAttribute('alt', desc);
+
+
+}); 
 
 
 
 
 
 //----------------------------------------------- Forecast
+}); 
+
+
+
+

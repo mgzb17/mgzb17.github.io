@@ -45,5 +45,5 @@ fetch(requestURL)
         card.appendChild(ip);
         card.appendChild(image);
 
-        document.querySelector('div.dont-exist').appendChild(card);} 
+        document.querySelector('div.dont-exist').appendChild(card);}  
     );
