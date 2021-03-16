@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: azure;
+    font-family: 'Ubuntu', sans-serif;
+}
+img {
+    border-radius: 25px;
+}
+section {
+    padding-bottom: 2em;
+}
+h2 {
+    font-size: 30px;
+    font-style: oblique;
+    color: darkslateblue;
+}
