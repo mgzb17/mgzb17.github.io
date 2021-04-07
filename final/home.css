@@ -357,7 +357,7 @@ input {
     text-align: left;
     font-size: 30px;
  }
- .services {
+ .services, .b {
     font-size: 40px;
     font-family: 'Kaushan Script', cursive;
  }
