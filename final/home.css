@@ -102,10 +102,8 @@ hr.dashed {
 .map {
    padding: 1em;
 }
-
-/*Font style of everything*/
    
-}
+
 header {
    display: grid;
    font-family: 'Dosis', sans-serif;
@@ -166,22 +164,6 @@ main {
    padding: .5em;
    font-weight: bold;
 }
-
- /*Table*/
- /* table {
-     text-align: center;
-     margin-left:auto;
-     margin-right:auto;
-     /* border: 3px solid black; */
-     padding: 1em;
-     font-size: 14pt;
- }
- th, td {
-     border: 1px solid black;
- }
- th {
-     color: #f87a8b;
- } */
  
  /*CLEARFIX*/
 .clearfix:after {
@@ -300,6 +282,85 @@ main {
  .legal {
     font-size: 1em;
  }
+  /* FORM */
+
+form fieldset {
+   margin: 2rem 0;
+   border: 1px solid #445ba9;
+   border-radius: 10px;
+   padding: .5rem 2%;
+   padding-bottom: 1.5em;
+}
+form legend {
+   color: #445ba9;
+   margin: 0 1rem;
+   padding: 0 .5rem;
+}
+
+form label.top, form div {
+   display:block;
+   padding-top: 1rem;
+   color: #9c2c13;
+   font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+   -webkit-appearance: none;
+   display:block;
+   font-size: 1rem;
+   border: solid 1px #999;
+   border-radius: 4px;
+   padding: .75rem;
+   color: #555;
+   width: 100%;
+   max-width: 20rem;
+   background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+   display: block;
+   padding: .75rem 0;
+   color: #555;
+}
+
+form input.submitBtn {
+   border: none;
+   background-color: #9c2c13;
+   color: white;
+   border-radius: 1rem;
+   padding: .75rem 1.5rem;
+   margin: 0 0 2rem 2%;
+   width: 96%;
+   max-width: 20rem;
+}
+
+input {
+   margin: 0 auto;
+}
+
+.button {
+   background-color: #b0b3c9;
+   border: none;
+   color: black;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 25px;
+ }
+
+
+ .a {
+    text-align: left;
+    font-size: 30px;
+ }
+ .services {
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+ }
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -342,3 +403,5 @@ main {
       margin: 1em;
       text-align:center;
   }
+}
+}
