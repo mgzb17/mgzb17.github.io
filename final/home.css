@@ -361,6 +361,13 @@ input {
     font-size: 40px;
     font-family: 'Kaushan Script', cursive;
  }
+ li {
+    text-align: left;
+ }
+ .m-contact {
+   font-size: 40px;
+   font-family: 'Kaushan Script', cursive;
+ }
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 
 
