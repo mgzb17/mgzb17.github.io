@@ -286,6 +286,7 @@ main {
  .flip-box-front {
    background-color: #bbb;
    color: black;
+   
  }
  
  /* Style the back side */
@@ -293,6 +294,11 @@ main {
    background-color: #999cbb;
    color: white;
    transform: rotateY(180deg);
+   text-align: center;
+ }
+
+ .legal {
+    font-size: 1em;
  }
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 
