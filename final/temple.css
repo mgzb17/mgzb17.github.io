@@ -1,344 +1,380 @@
 nav {
-    margin: 0 auto; /*makes it to be in the middle of the screen*/
-    max-width: 360px;
-    background-color: rgb(204, 226, 233);
-    border-radius: 25px;
-    text-align: center;
-    
- }
- 
- #navigation {
-    list-style:none;
-    padding:0;
-    display:grid;
-    grid-template-columns: auto;
-    text-align:center;
- }
- 
- /*Turn on first li*/
- #navigation li:first-child {
-    display:block;
- }
- 
- /*Turn off the other lists. Usually it will turn off all but the one above turned one on so it left one on.*/
- #navigation li {
-    display: none;
- }
- 
- /*The acronym for this is LoVe HAte. This needs to be typed in this order. You can read w3schools about this.*/
- /**/
- #navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active, navigation a:focus {
-    display: block;
-    padding: 0.7em;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-weight:bold 300;
-    position: relative;
-    font-family: 'Dosis', sans-serif;
- }
- #navigation a:hover {
-    color: white;
-    background-color: #b0b3c9;
-    border-radius: 25px;
- }
- /*this here is saying a class named navigation that has an id of responsive.*/
- #navigation.responsive li {
-    display:block;
- }
- .current {
-    border-radius: 25px;
-    background-color: #f7e2e4;
- }
- 
- body {
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
-    margin: 0 auto;
- }
- h1 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 5em;
- }
- h2 {
-    color:black;
- }
- p {
-    font-size: 1.5em;
- }
- h3 {
-    color: red;
-    font-size: 2em;
- }
- .banner {
-    max-width: 100%;
-    width: 100%;
-    border-radius: 20px;
- }
- 
- hr.dashed {
-    border-top: 3px dashed #b0b3c9;
-  }
- 
- #content {
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 1em;
-    border-radius: 25px;
- }
- 
- .footer-contact {
-    display: none;
- }
- 
- /*MAP*/
- .map img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
- }
- .map {
-    padding: 1em;
- }
- 
- /*Font style of everything*/
-    
- }
- header {
-    display: grid;
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
-    grid-template-columns: auto auto;
- }
- 
- 
- /**/
- .social img {
-    max-width:5%;
-    height:auto;
-    border-radius: 25px;
- }
- 
- .social {
-    text-align:center;
- }
- 
- 
- /**/
- body {
-    background-color: #e7edefff;
-    color: #003F91;
- }
- 
- /**/
- main {
-    display: grid;  
-    margin: 0 auto;
-    font-family: 'Dosis', sans-serif;
-    grid-template-columns:1fr;
-    grid-gap: 1em;
-    background-color: white;
-    padding: 10px;
-    margin: 1em;
-    text-align:center;
-    border-radius: 25px;
- }
- 
- 
- .contact {
-    /* border-style: solid;
+   margin: 0 auto;
+   /*makes it to be in the middle of the screen*/
+   max-width: 360px;
+   background-color: rgb(204, 226, 233);
+   border-radius: 25px;
+   text-align: center;
+
+}
+
+#navigation {
+   list-style: none;
+   padding: 0;
+   display: grid;
+   grid-template-columns: auto;
+   text-align: center;
+}
+
+/*Turn on first li*/
+#navigation li:first-child {
+   display: block;
+}
+
+/*Turn off the other lists. Usually it will turn off all but the one above turned one on so it left one on.*/
+#navigation li {
+   display: none;
+}
+
+/*The acronym for this is LoVe HAte. This needs to be typed in this order. You can read w3schools about this.*/
+/**/
+#navigation a:link,
+#navigation a:visited,
+#navigation a:hover,
+#navigation a:active,
+navigation a:focus {
+   display: block;
+   padding: 0.7em;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   font-weight: bold 300;
+   position: relative;
+   font-family: 'Dosis', sans-serif;
+}
+
+#navigation a:hover {
+   color: white;
+   background-color: #b0b3c9;
+   border-radius: 25px;
+}
+
+/*this here is saying a class named navigation that has an id of responsive.*/
+#navigation.responsive li {
+   display: block;
+}
+
+.current {
+   border-radius: 25px;
+   background-color: #f7e2e4;
+}
+
+body {
+   font-family: 'Dosis', sans-serif;
+   text-align: center;
+   margin: 0 auto;
+}
+
+h1 {
+   font-family: 'Kaushan Script', cursive;
+   font-size: 5em;
+}
+
+h2 {
+   color: black;
+}
+
+p {
+   font-size: 1.5em;
+}
+
+h3 {
+   color: red;
+   font-size: 2em;
+}
+
+.banner {
+   max-width: 100%;
+   width: 100%;
+   border-radius: 20px;
+}
+
+hr.dashed {
+   border-top: 3px dashed #b0b3c9;
+}
+
+#content {
+   max-width: 960px;
+   margin: 0 auto;
+   background-color: white;
+   padding: 1em;
+   border-radius: 25px;
+}
+
+.footer-contact {
+   display: none;
+}
+
+/*MAP*/
+.map img {
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.map {
+   padding: 1em;
+}
+
+/*Font style of everything*/
+
+
+header {
+   display: grid;
+   font-family: 'Dosis', sans-serif;
+   text-align: center;
+   grid-template-columns: auto auto;
+}
+
+
+/**/
+.social img {
+   max-width: 5%;
+   height: auto;
+   border-radius: 25px;
+}
+
+.social {
+   text-align: center;
+}
+
+
+/**/
+body {
+   background-color: #e7edefff;
+   color: #003F91;
+}
+
+/**/
+main {
+   display: grid;
+   margin: 0 auto;
+   font-family: 'Dosis', sans-serif;
+   grid-template-columns: 1fr;
+   grid-gap: 1em;
+   background-color: white;
+   padding: 10px;
+   margin: 1em;
+   text-align: center;
+   border-radius: 25px;
+}
+
+
+.contact {
+   /* border-style: solid;
     border-radius: 25px; */
-    padding-bottom: 1em;
- }
- /**/
- .date {
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
- }
- /**/
- #banner p {
-    font-size: 125%;
-    color: #f87a8b;
-    border: dashed;
-    border-radius: 25px;
-    padding: .5em;
-    font-weight: bold;
- }
- 
-  /*Table*/
-  /* table {
-      text-align: center;
-      margin-left:auto;
-      margin-right:auto;
-      /* border: 3px solid black; */
-      padding: 1em;
-      font-size: 14pt;
-  }
-  th, td {
-      border: 1px solid black;
-  }
-  th {
-      color: #f87a8b;
-  } */
-  
-  /*CLEARFIX*/
- .clearfix:after {
-    content:"";
-    display: table;
-    clear:both;
- }
- 
- 
- /*Gallery for Mobile*/
- 
- .loading {
-    background-color: rgb(231, 231, 231);
-    min-width: 300px;
-    min-height:200px;
-    position:relative;
-    box-shadow: 10px 10px 5px #b0b3c9;
-    /* padding-bottom: 1em; */
- }
- .placeholder-loading::before {
-    content:"";
-    display:block;
-    position:absolute;
-    left:-400px;
-    top:0;
-    height:100%;
-    width:400px;
-    background: linear-gradient(to right, transparent 0%, #ffffff 50%, transparent 100%);
-    animation: load 3s;
-    z-index:50;
- }
- .placeholder-loading {
-    display:inline-block;
-    position:relative;
-    overflow:hidden;
-    padding-bottom: 10px;
-    height:500px;
-    width:600px;
- }
- .placeholder-loading {
-    transition: box-shadow .3s;
-    /* width: 300px;
+   padding-bottom: 1em;
+}
+
+/**/
+.date {
+   font-family: 'Dosis', sans-serif;
+   text-align: center;
+}
+
+/**/
+#banner p {
+   font-size: 125%;
+   color: #f87a8b;
+   border: dashed;
+   border-radius: 25px;
+   padding: .5em;
+   font-weight: bold;
+}
+
+th,
+td {
+   border: 1px solid black;
+}
+
+th {
+   color: #f87a8b;
+}
+
+/*CLEARFIX*/
+.clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+
+/*Gallery for Mobile*/
+
+.loading {
+   background-color: rgb(231, 231, 231);
+   min-width: 300px;
+   min-height: 200px;
+   position: relative;
+   box-shadow: 10px 10px 5px #b0b3c9;
+   /* padding-bottom: 1em; */
+}
+
+.placeholder-loading::before {
+   content: "";
+   display: block;
+   position: absolute;
+   left: -400px;
+   top: 0;
+   height: 100%;
+   width: 400px;
+   background: linear-gradient(to right, transparent 0%, #ffffff 50%, transparent 100%);
+   animation: load 3s;
+   z-index: 50;
+}
+
+.placeholder-loading {
+   display: inline-block;
+   position: relative;
+   overflow: hidden;
+   padding-bottom: 10px;
+   height: 500px;
+   width: 600px;
+}
+
+.placeholder-loading {
+   transition: box-shadow .3s;
+   /* width: 300px;
     height: 500px;
     margin: 50px;
     border-radius:10px;
     border: 1px solid #ccc;
     background: #fff;
     float: left; */
-    
-  }
-  .placeholder-loading:hover {
-    box-shadow: 0 0 11px rgba(25, 24, 24, 0.734); 
-  }
- @keyframes load {
-    0% {
-        left:-400px;
-    }
-    100% {
-        left:100%;
-    }
- }
- /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
- .flip-box {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    display:inline-block;
-    position:relative;
-    overflow:hidden;
-    padding-bottom: 10px;
-    height:400px;
-    width:500px;
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-box-front {
-    background-color: #bbb;
-    color: black;
-    
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-    background-color: #999cbb;
-    color: white;
-    transform: rotateY(180deg);
-    text-align: center;
-  }
- 
-  .legal {
-     font-size: 1em;
-  }
- /* --------------------------------------------------------------------------------------------------------------------------------- */
- 
- 
- @media only screen and (min-width:34.5em){
-    nav {
-        max-width: 100%;
-        border-radius: 25px;
-        
-    }
-    #navigation {
-        grid-template-columns: repeat(7,auto);
-    }
-    #navigation li {
-        display:block;
-    }
-    #navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active, navigation a:focus {
-        text-align:center;
-    }
-    /*turns off the hamburger menu*/
-    #navigation li:first-child {
-        display:none;
-    }
- 
- /* --------------------------------------------------------------------------------------------------------------------------------- */
- 
- @media only screen and (min-width:54.5em) {
-    #navigation {
-        width:800px;
-        margin:16px auto;
-        font-family: 'Ubuntu', sans-serif;
-    }
-    main {
-       display: grid;  
-       margin: 0 auto;
-       font-family: 'Dosis', sans-serif;
-       grid-template-columns:1fr;
-       grid-gap: 1em;
-       background-color: white;
-       padding: 10px;
-       margin: 1em;
-       text-align:center;
+
+}
+
+.placeholder-loading:hover {
+   box-shadow: 0 0 11px rgba(25, 24, 24, 0.734);
+}
+
+@keyframes load {
+   0% {
+      left: -400px;
    }
+
+   100% {
+      left: 100%;
+   }
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+   background-color: transparent;
+   width: 300px;
+   height: 200px;
+   border: 1px solid #f1f1f1;
+   perspective: 1000px;
+   /* Remove this if you don't want the 3D effect */
+   display: inline-block;
+   position: relative;
+   overflow: hidden;
+   padding-bottom: 10px;
+   height: 400px;
+   width: 500px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+   transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden;
+   /* Safari */
+   backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+   background-color: #bbb;
+   color: black;
+
+}
+
+/* Style the back side */
+.flip-box-back {
+   background-color: #999cbb;
+   color: white;
+   transform: rotateY(180deg);
+   text-align: center;
+}
+
+.legal {
+   font-size: 1em;
+}
+
+.place {
+   font-family: 'Kaushan Script', cursive;
+   font-size: 30px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (min-width:34.5em) {
+   nav {
+      max-width: 100%;
+      border-radius: 25px;
+
+   }
+
+   #navigation {
+      grid-template-columns: repeat(7, auto);
+   }
+
+   #navigation li {
+      display: block;
+   }
+
+   #navigation a:link,
+   #navigation a:visited,
+   #navigation a:hover,
+   #navigation a:active,
+   navigation a:focus {
+      text-align: center;
+   }
+
+   /*turns off the hamburger menu*/
+   #navigation li:first-child {
+      display: none;
+   }
+
+   /* --------------------------------------------------------------------------------------------------------------------------------- */
+
+   @media only screen and (min-width:54.5em) {
+      #navigation {
+         width: 800px;
+         margin: 16px auto;
+         font-family: 'Ubuntu', sans-serif;
+      }
+
+      main {
+         display: grid;
+         margin: 0 auto;
+         font-family: 'Dosis', sans-serif;
+         grid-template-columns: 1fr;
+         grid-gap: 1em;
+         background-color: white;
+         padding: 10px;
+         margin: 1em;
+         text-align: center;
+      }
+   }
+}
