@@ -103,9 +103,7 @@ nav {
     padding: 1em;
  }
  
- /*Font style of everything*/
-    
- }
+
  header {
     display: grid;
     font-family: 'Dosis', sans-serif;
@@ -395,3 +393,5 @@ input {
        margin: 1em;
        text-align:center;
    }
+}
+ }
